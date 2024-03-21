@@ -6,13 +6,15 @@ function App() {
 
   const getQuote = () => {
     fetch('https://api.breakingbadquotes.xyz/v1/quotes')
-    .then(res => res.json())
-    .then(data => console.log(data));
+      .then(res => res.json())
+      .then(data => setQuotes(data[0]));
   }
 
   return (
     <div className='App'>
-      <button onClick={getQuote}>Get Quotes</button>
+      <h3>{quotes.quote}</h3>
+      <h4>~{quotes.author}~</h4>
+      <button onClick={getQuote}>Get Quote</button>
     </div>
   );
 }
