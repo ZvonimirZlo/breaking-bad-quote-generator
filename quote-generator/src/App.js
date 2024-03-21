@@ -11,12 +11,18 @@ function App() {
   }
 
   return (
-    <div className='App'>
-      <h3>{quotes.quote}</h3>
-      <h4>~{quotes.author}~</h4>
+    <div className='container'>
+      <div className='App'>
+         <div className='text'>
+         <h3>{quotes.quote}</h3>
+         <h4>~{quotes.author}~</h4>
+         </div>
+        </div>
       <button onClick={getQuote}>Get Quote</button>
     </div>
   );
 }
 
 export default App;
+
+
