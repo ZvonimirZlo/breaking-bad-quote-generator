@@ -14,7 +14,7 @@ function App() {
     <div className='container'>
       <div className='App'>
          <div className='text'>
-         <h3>{quotes.quote}</h3>
+         <h3>"{quotes.quote}"</h3>
          <h4>~{quotes.author}~</h4>
          </div>
         </div>

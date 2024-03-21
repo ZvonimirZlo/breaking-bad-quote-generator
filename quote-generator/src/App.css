@@ -12,6 +12,8 @@
   margin: 22vh auto;
   padding: 20px;
   position: relative;
+  background-color: rgb(228, 238, 33);
+  opacity: 0.6;
 }
 
 .App {
@@ -32,6 +34,10 @@ button{
 
 .text {
   font-size: 25px;
+}
+
+body {
+  background: url(/public/img/joshua-freake-Qgh0z14m5LI-unsplash.jpg)center/cover no-repeat fixed;
 }
 
 
