@@ -15,7 +15,7 @@ function App() {
     <div className='container'>
       <div className='App'>
          <div className='text'>
-         <h3 className='animate__animated animate__fadeIn'>"{quotes.quote}"</h3>
+         <h3 className='animate__animated animate__fadeIn fw-bold'>"{quotes.quote}"</h3>
          <h4 className='animate__animated animate__fadeIn'>~{quotes.author}~</h4>
          </div>
         </div>

@@ -13,7 +13,7 @@
   padding: 20px;
   position: relative;
   background-color: rgb(228, 238, 33);
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .App {
@@ -30,12 +30,17 @@ button{
   font-weight: bold;
   border-radius: 9px;
   position: fixed;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  color: rgb(228, 238, 33);
 }
 
 .text {
-  font-size: 25px;
-  
-
+  text-align: center;
+  padding: 20px;
 }
 
 body {
