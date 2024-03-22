@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import 'animate.css';
 
 function App() {
   const [quotes, setQuotes] = useState('');
@@ -14,11 +15,11 @@ function App() {
     <div className='container'>
       <div className='App'>
          <div className='text'>
-         <h3>"{quotes.quote}"</h3>
-         <h4>~{quotes.author}~</h4>
+         <h3 className='animate__animated animate__fadeIn'>"{quotes.quote}"</h3>
+         <h4 className='animate__animated animate__fadeIn'>~{quotes.author}~</h4>
          </div>
         </div>
-      <button onClick={getQuote}>Get Quote</button>
+      <button className='animate__animated animate__bounce' onClick={getQuote}>Get Quote</button>
     </div>
   );
 }
