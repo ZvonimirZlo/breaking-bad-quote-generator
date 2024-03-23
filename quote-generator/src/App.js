@@ -18,7 +18,7 @@ function App() {
           <div className='text'>
             <h3 className='animate__animated animate__fadeIn fw-bold'>{quotes.quote}</h3>
             <h4 className='animate__animated animate__fadeIn text-end fst-italic'>{quotes.author}</h4>
-            <button className='animate__animated animate__flip fw-bold' onClick={getQuote}>Get Quote</button>
+            <button className='animate__animated animate__flip' onClick={getQuote}>Get Quote</button>
           </div>
           
         </div>
