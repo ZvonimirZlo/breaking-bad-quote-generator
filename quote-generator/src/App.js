@@ -12,15 +12,21 @@ function App() {
   }
 
   return (
-    <div className='container'>
-      <div className='App'>
-         <div className='text'>
-         <h3 className='animate__animated animate__fadeIn fw-bold'>"{quotes.quote}"</h3>
-         <h4 className='animate__animated animate__fadeIn'>~{quotes.author}~</h4>
-         </div>
+    <>
+      <div>
+        <div className='cont container-sm '>
+          <div className='text'>
+            <h3 className='animate__animated animate__fadeIn fw-bold'>{quotes.quote}</h3>
+            <h4 className='animate__animated animate__fadeIn text-end fst-italic'>{quotes.author}</h4>
+            <button className='animate__animated animate__flip btn btn-outline-dark btn-lg fw-bold' onClick={getQuote}>Get Quote</button>
+          </div>
+          
         </div>
-      <button className='animate__animated animate__bounce' onClick={getQuote}>Get Quote</button>
-    </div>
+        
+      </div>
+
+      <footer className="footer">© Made by ZvonimirZlo</footer>
+    </>
   );
 }
 
