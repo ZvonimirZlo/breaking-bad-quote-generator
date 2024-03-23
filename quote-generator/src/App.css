@@ -1,4 +1,10 @@
-
+:root {
+  --color: rgb(99, 176, 99);
+  --button-color:rgb(81, 255, 0);
+  --secondary-color: #113012;
+}
+ 
+ 
  .cont {
   display: flex;
   align-items: center;
@@ -6,30 +12,38 @@
   margin: 20vh auto;
   width: 60vw;
   height: 50vh;
-  border: 3px solid black;
+  border: 1px solid rgb(81, 255, 0);
   border-radius: 16px;
-  background-color: rgb(228, 238, 33);
-  opacity: 0.7;
+  background-color: var(--color);
+  opacity: 0.8;
   padding: 2rem;
+  box-shadow: 2px 2px 20px 2px rgb(81, 255, 0);
 }
 
 
 button{
-  transition: 0.5s;
+  background-color: var(--button-color);
+  font-weight: 100;
+  width: 150px;
+  border-radius: 10px;
+  border: rgb(81, 255, 0);
+  transition: 0.4s;
   max-width: 29vw;
   max-height: 10vh;
   margin-top: 5vh;
+  box-shadow: 1px 1px 10px 1px rgb(81, 255, 0);
 }
 
 button:hover {
-  background-color: #3e8e41;
-  color: rgb(228, 238, 33);
+  background-color: var(--secondary-color);
+  color: rgb(249, 255, 145);
 }
 
 .text {
   text-align: center;
   padding: 2rem;
   font-size: 25px;
+  color: black;
 }
 
 body {
@@ -40,17 +54,20 @@ body {
   justify-content: center;
 }
 
+
 footer {
   text-align: center;
-  color: #3e8e41;
+  color: var(--button-color);
   margin-top: 20vh;
+  font-size: 12px;
 }
 
-@media (min-width: 320px) and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 700px) {
   .cont {
-      width: 100vw;
-      height: 80vh;
+      width: 98vw;
+      height: 90vh;
   }
+
 }
 
 
