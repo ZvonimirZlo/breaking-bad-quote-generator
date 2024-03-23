@@ -1,7 +1,7 @@
 :root {
-  --color: rgb(99, 176, 99);
-  --button-color:rgb(81, 255, 0);
-  --secondary-color: #113012;
+  --color: rgb(14, 26, 14);
+  --button-color:rgb(197, 251, 34);
+  --secondary-color: #1c4114;
 }
  
  
@@ -12,30 +12,41 @@
   margin: 20vh auto;
   width: 60vw;
   height: 50vh;
-  border: 1px solid rgb(81, 255, 0);
+  border: 1px solid var(--button-color);
   border-radius: 16px;
-  background-color: var(--color);
   opacity: 0.8;
   padding: 2rem;
   box-shadow: 2px 2px 20px 2px rgb(81, 255, 0);
-}
+  background-color: var(--secondary-color);
+  }
+
+  .cont::before{
+    content: "";
+    background: url(/public/img/bb.png) center no-repeat fixed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.39;
+  }
 
 
 button{
   background-color: var(--secondary-color);
-  color: rgb(249, 255, 145);
+  color: var(--button-color);
   font-weight: 100;
   width: 170px;
   border-radius: 10px;
-  border: rgb(81, 255, 0);
   transition: 0.4s;
   max-width: 29vw;
   max-height: 10vh;
   margin-top: 5vh;
+  border: 1px solid white;
 }
 
 button:hover {
-  color: black;
+  color: var(--secondary-color);
   background-color: var(--button-color);
   box-shadow: 2px 2px 15px 2px rgb(81, 255, 0);
 }
@@ -44,7 +55,8 @@ button:hover {
   text-align: center;
   padding: 2rem;
   font-size: 25px;
-  color: black;
+  color: var(--button-color);
+  z-index: 99;
 }
 
 body {
@@ -63,6 +75,13 @@ footer {
   font-size: 12px;
 }
 
+.text h2{
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--button-color);
+  opacity: 1;
+}
+
 @media (min-width: 320px) and (max-width: 700px) {
   .cont {
       width: 98vw;
@@ -70,6 +89,7 @@ footer {
   }
 
 }
+
 
 
 
