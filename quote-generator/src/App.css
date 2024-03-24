@@ -1,6 +1,6 @@
 :root {
   --color: rgb(14, 26, 14);
-  --button-color:rgb(197, 251, 34);
+  --button-color:rgb(104, 255, 4);
   --secondary-color: #1c4114;
 }
  
@@ -14,7 +14,7 @@
   height: 50vh;
   border: 1px solid var(--button-color);
   border-radius: 16px;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 2rem;
   box-shadow: 2px 2px 20px 2px rgb(81, 255, 0);
   background-color: var(--secondary-color);
@@ -28,24 +28,26 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.39;
+    opacity: 0.35;
+    
   }
 
 
-button{
+.btn{
   background-color: var(--secondary-color);
   color: var(--button-color);
-  font-weight: 100;
+  font-size: 22px;
+  font-weight: bold;
   width: 170px;
   border-radius: 10px;
   transition: 0.4s;
   max-width: 29vw;
   max-height: 10vh;
   margin-top: 5vh;
-  border: 1px solid white;
+  border: 1px solid var(--button-color);
 }
 
-button:hover {
+.btn:hover {
   color: var(--secondary-color);
   background-color: var(--button-color);
   box-shadow: 2px 2px 15px 2px rgb(81, 255, 0);
@@ -54,7 +56,6 @@ button:hover {
 .text {
   text-align: center;
   padding: 2rem;
-  font-size: 25px;
   color: var(--button-color);
   z-index: 99;
 }
@@ -76,16 +77,16 @@ footer {
 }
 
 .text h2{
-  font-size: 30px;
   font-weight: 800;
   color: var(--button-color);
   opacity: 1;
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .cont {
       width: 98vw;
       height: 90vh;
+      font-size: small;
   }
 
 }
