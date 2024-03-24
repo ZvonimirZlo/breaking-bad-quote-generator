@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'animate.css';
 
@@ -11,18 +11,21 @@ function App() {
       .then(data => setQuotes(data[0]));
   }
 
+  useEffect(() => {
+    getQuote()
+  }, []);
+
   return (
     <>
       <div>
         <div className='cont container'>
           <div className='text'>
-            <h2 className='animate__animated animate__fadeIn'>{quotes.quote}</h2>
-            <h4 className='animate__animated animate__fadeIn text-end fst-italic'>{quotes.author}</h4>
+            <h2 className='animate__animated animate__fadeIn'>"{quotes.quote}"</h2>
+            <h4 className='animate__animated animate__fadeIn text-end fst-italic'>~{quotes.author}~</h4>
             <button className='btn animate__animated animate__flip' onClick={getQuote}>Get Quote</button>
           </div>
-          
+
         </div>
-        
       </div>
       <footer className="footer">© Made by ZvonimirZlo</footer>
     </>

@@ -16,7 +16,7 @@
   border-radius: 16px;
   opacity: 0.9;
   padding: 2rem;
-  box-shadow: 2px 2px 20px 2px rgb(81, 255, 0);
+  box-shadow: 2px 2px 20px 2px var(--button-color);
   background-color: var(--secondary-color);
   }
 
@@ -50,7 +50,7 @@
 .btn:hover {
   color: var(--secondary-color);
   background-color: var(--button-color);
-  box-shadow: 2px 2px 15px 2px rgb(81, 255, 0);
+  box-shadow: 2px 2px 15px 2px var(--button-color);
 }
 
 .text {
@@ -61,7 +61,7 @@
 }
 
 body {
-  background: url(/public/img/joshua-freake-Qgh0z14m5LI-unsplash.jpg)center/cover no-repeat fixed;
+  background: url(/public/img/bg.jpg)center/cover no-repeat fixed;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -71,7 +71,7 @@ body {
 
 footer {
   text-align: center;
-  color: var(--button-color);
+  color: var(--secondary-color);
   margin-top: 20vh;
   font-size: 12px;
 }
