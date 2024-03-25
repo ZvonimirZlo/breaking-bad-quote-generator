@@ -1,8 +1,8 @@
 :root {
   --color: rgb(14, 26, 14);
-  --button-color:rgb(104, 255, 4);
+  --button-color:#FFFD01;
   --secondary-color: #1c4114;
-  --footer-color: rgb(111, 164, 30);
+  --footer-color: rgb(60, 133, 44);
 }
  
  
@@ -13,11 +13,11 @@
   margin: 20vh auto;
   width: 1200px;
   height: 450px;
-  border: 1px solid var(--button-color);
-  border-radius: 16px;
+  border: 1px solid var(--footer-color);
+  border-radius: 36px;
   opacity: 0.9;
   padding: 2rem;
-  box-shadow: 1px 1px 15px 2px var(--button-color);
+  box-shadow: 2px 2px 20px 2px var(--footer-color);
   background-color: var(--secondary-color);
   }
 
@@ -40,7 +40,7 @@
   font-size: 22px;
   font-weight: bold;
   width: 170px;
-  border-radius: 10px;
+  border-radius: 25px;
   transition: 0.4s;
   max-width: 29vw;
   max-height: 10vh;
