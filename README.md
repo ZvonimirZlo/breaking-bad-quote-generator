@@ -13,12 +13,12 @@ Generates random quotes from Breaking Bad series.
 
 ## Screenshots
 <p>
-  <img src='https://github.com/ZvonimirZlo/weather-app/assets/104101182/97a1d07a-7a5c-4cae-a251-de7d78ae6e81' width="400">
+  <img src='https://github.com/ZvonimirZlo/breaking-bad-quote-generator/assets/104101182/34da1ec6-907b-4e55-9d7f-349743e70962'>
 </p>
-<h4>Live demo at: <a href='https://react-weather-app-zlo.netlify.app'>https://react-weather-app-zlo.netlify.app</a></h4>
+<h4>Live demo at: <a href='https://breaking-bad-quotes101.netlify.app'>https://breaking-bad-quotes101.netlify.app</a></h4>
 
 ## API
-I've used <a href='https://open-meteo.com'>Open Meteo API</a>
+I've used <a href='https://breakingbadquotes.xyz'>This API</a>. The complete API documentation is available <a href='https://github.com/shevabam/breaking-bad-quotes'>here</a>.
 
 ## Technologies
 I've used `React`, `CSS`, `Html`, `Animate CSS`, `Bootstrap`.
@@ -30,6 +30,6 @@ I've used `React`, `CSS`, `Html`, `Animate CSS`, `Bootstrap`.
 
 
 ## Credits
-List of images authors from Unsplash:
+Author of the image I've used for the background is Joshua Freake from Unsplash.
 
 
