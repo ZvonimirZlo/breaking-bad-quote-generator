@@ -14,7 +14,7 @@ Generates random quotes of Breaking Bad series.
 
 ## Screenshots
 <p>
-
+ <img src='https://github.com/ZvonimirZlo/breaking-bad-quote-generator/assets/104101182/34da1ec6-907b-4e55-9d7f-349743e70962'>
 </p>
 
 ## API
