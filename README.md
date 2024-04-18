@@ -18,7 +18,7 @@ Generates random quotes of Breaking Bad series.
 </p>
 
 ## API
-I've used <a href='https://breakingbadquotes.xyz'>This API developed by shevabam</a>. The complete API documentation is available <a href='https://github.com/shevabam/breaking-bad-quotes'>here</a>.
+I've used <a href='https://breakingbadquotes.xyz'>This API</a> developed by shevabam. The complete API documentation is available <a href='https://github.com/shevabam/breaking-bad-quotes'>here</a>.
 
 ## Technologies
 I've used `React`, `CSS`, `Html`, `Animate CSS`, `Bootstrap`.
