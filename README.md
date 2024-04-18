@@ -9,13 +9,13 @@
 - [Setup](#setup)
 
 ## About The App
-Generates random quotes from Breaking Bad series.
+Generates random quotes of Breaking Bad series.
+<h4>Live demo: <a href='https://breaking-bad-quotes101.netlify.app'>https://breaking-bad-quotes101.netlify.app</a></h4>
 
 ## Screenshots
 <p>
   <img src='https://github.com/ZvonimirZlo/breaking-bad-quote-generator/assets/104101182/34da1ec6-907b-4e55-9d7f-349743e70962'>
 </p>
-<h4>Live demo at: <a href='https://breaking-bad-quotes101.netlify.app'>https://breaking-bad-quotes101.netlify.app</a></h4>
 
 ## API
 I've used <a href='https://breakingbadquotes.xyz'>This API</a>. The complete API documentation is available <a href='https://github.com/shevabam/breaking-bad-quotes'>here</a>.
