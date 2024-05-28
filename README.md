@@ -27,7 +27,7 @@ I've used `React`, `CSS`, `Animate CSS`, `Bootstrap`.
 - download or clone the repository
 - run `npm install`
 - run `npm start`
-
+- or open live demo on the link above
 
 ## Credits
 Author of the image I've used for the background is Joshua Freake from Unsplash.
